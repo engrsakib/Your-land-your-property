@@ -9,4 +9,7 @@
       font-weight: 700;
       font-style: normal;
     }
+    .bg-input{
+      background-image: url("../B10-Assignment-03/assets/bg.jpg");
+    }
 }

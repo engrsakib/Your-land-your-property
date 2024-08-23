@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./B10-Assignment-03/assets/bg.jpg')",
+      }
+    },
   },
   plugins: [
     require('daisyui'),
